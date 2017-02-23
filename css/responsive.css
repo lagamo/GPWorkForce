@@ -1,0 +1,636 @@
+/* =============================================
+       mobail device responsive start
+============================================= */
+@media only screen and (max-width: 1440px) {}
+@media only screen and (max-width: 1340px) {}
+@media only screen and (max-width: 1300px) {
+    .index2-banner .banner-text {
+        padding-top: 23%;
+        top: 0;
+    }
+}
+@media only screen and (max-width: 1199px) {
+    .navigation .navbar-nav > li {
+        margin-right: 35px;
+    }
+    .navigation-search {
+        margin-left: 25px;
+    }
+    .servis-hover {
+        width: 88%;
+    }
+    .grid-mesonry {
+        text-align: center;
+    }
+    .call-to-action p {
+        font-size: 22px;
+    }
+    .footer-inner h3{
+        font-size: 19px;
+    }
+    .thumbnail-image{
+        width: 33.3% !important;
+    }
+    td:nth-child(2n) {
+        padding-left: 20px;
+    }
+    td:nth-child(2n+1) {
+        padding-right: 20px;
+    }
+    .blog-tag-share .tags-area {
+        display: block;
+    }
+    .blog-tag-share .share-area {
+        display: block;
+        float: none;
+        margin-top: 20px;
+    }
+    .contact-massege .form-group .form-control {
+        width: 219px;
+    }
+    #navigation-bar #input {
+        width: 665px;
+    }
+    #navigation-bar #input input {
+        width: 665px;
+    }
+}
+@media only screen and (max-width: 991px)  {
+    .navigation .navbar-nav > li {
+        margin-right: 20px;
+    }
+    .navigation-search {
+        margin-left: 5px;
+    }
+    .why-chosse .chose-text {
+        padding-left: 0;
+    }
+    .grid-mesonry .element-item {
+        margin: 10px 10px 0;
+        width: 46%;
+    }
+    .grid-mesonry .element-item img{
+        width: 100%;
+        height: 100%;
+    }
+    .work-plain .text-box {
+        width: 75%;
+    }
+    .work-plain i::after {
+        height: 133px;
+    }
+    .working-proses-left {
+        padding: 100px 20px;
+    }
+    .working-proses-rigth {
+        padding-left: 0;
+        padding-top: 177px;
+    }
+    .testimonail-contant {
+        padding-top: 0px;
+    }
+    .home-blog-inner{
+        margin-bottom: 30px;
+    }
+    .home-blog-last .home-blog-inner{
+        margin-bottom: 0px;
+    }
+    .call-to-action p {
+        font-size: 16px;
+        margin-right: 5px;
+    }
+    .footer-inner{
+        margin-bottom: 30px;
+    }
+    #footer {
+        padding: 95px 0 65px;
+    }
+    .index2-banner .banner-image > img {
+        height: 500px;
+        width: 100%;
+    }
+    .detail-download-broucher h2, .detail-download-summery h2 {
+        font-size: 22px;
+    }
+    .project-iso-inner .image-holder img{
+        width: 100%;
+    }
+    .calculation .project-hedding {
+        margin-top: 0;
+    }
+    .calculation .about-project {
+        margin-top: 30px;
+    }
+    h2 {
+        font-size: 26px;
+    }
+    .project-clint-info .nav > li > a {
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 767px)  {
+    .top-header {
+        text-align: center;
+    }
+    .top-header .top-header-socail {
+        margin-top: 20px;
+        text-align: center;
+    }
+    .logo{
+        position: relative;
+    }
+    .navigation {
+        position: absolute;
+        right: 35px;
+        text-align: right;
+        top: -43px;
+        width: 100%;
+        z-index: 10;
+    }
+    .navigation-search {
+        margin-left: 0px;
+        position: absolute;
+        top: 10px;
+    }
+    .navigation .navbar {
+        display: block;
+    }
+    .navigation .navbar-collapse {
+        background-color: #ffffff;
+        padding: 15px;
+        position: absolute;
+        right: -28px;
+        top: 72px;
+        width: 98%;
+    }
+    .navigation .navbar-nav {
+        margin: 0;
+        text-align: left;
+    }
+    .navigation .pull-right {
+        float: none !important;
+    }
+    .navigation .nav > li > a::before {
+        display: none;
+    }
+    .navigation .nav > li::before {
+        display: none;
+    }
+    .navigation .nav > li::after {
+        display: none;
+    }
+    .navigation .nav > li.active::before, .navigation .nav > li.active::after, .navigation .nav > li.active a::before {
+        display: none;
+    }   
+    .navigation .nav > li:hover::before, .navigation .nav > li:hover::after, .navigation .nav > li:hover a::before {
+        display: none;
+    }
+    .sub-menu {
+        opacity: 1;
+        background-color: #111;
+        position: inherit;
+        top: 0;
+        visibility: visible;
+        width: 100%;
+        display: none;
+    }
+    .sub-menu ul li a{
+        color: #fff;
+    }
+    .navigation .nav > li.active .sub-menu li a {
+        color: #fff;
+    }
+    .navigation .navbar-nav > li:hover .sub-menu {
+        display: block;
+        opacity: 1;
+        top: 0;
+        transition: all 500ms ease-in-out 0s;
+        visibility: visible;
+    }
+    .banner-image > img {
+        height: 300px;
+    }
+    .banner-text h1 {
+        font-size: 34px;
+    }
+    .why-chosse .image-chose {
+        margin: 15px auto 30px;
+        position: relative;
+        width: 72%;
+    }
+    .work-plain i::after {
+        display: none;
+    }
+    .working-proses-rigth {
+        padding-bottom: 100px;
+        padding-left: 0;
+        padding-top: 50px;
+    }
+    .experts-colum .image-holder img {
+        width: 100%;
+    }
+    .experts-colum{
+        margin-bottom: 30px;
+    }
+    .experts-main{
+        padding-bottom: 70px;
+    }
+    .testimonail-clints {
+        margin: 0 auto 24px;
+        display: inline-block;
+    }
+    .call-to-action {
+        padding: 30px 0;
+        text-align: center;
+    }
+    .call-to-action .btn {
+        margin-top: 10px;
+    }
+    .home-blog-inner .image-holder {
+        display: inline-block;
+        position: relative;
+        width: 50%;
+    }
+    .home-blog-inner .text-box {
+        display: inline-block;
+        padding: 10px 10px 0;
+        vertical-align: top;
+        width: 49%;
+    }
+    .index2-header .maain-header {
+        padding-top: 25px;
+    }
+    .index2-header .navigation .nav > li > a{
+        color: #111111;
+    }
+    .navigation .navbar-toggle {
+        background-color: rgba(0, 0, 0, 0);
+        border: medium none;
+        border-radius: 0;
+    }
+    .navigation .navbar-default .navbar-toggle .icon-bar {
+        background-color: #fff;
+    }
+    .navigation .navbar-default .navbar-toggle:hover, .navigation .navbar-default .navbar-toggle:focus {
+        background-color: #111;
+    }
+    .breadcrumb li a{
+        font-size: 14px;
+    }
+    #navigation-bar #input {
+        width: 300px;
+    }
+    #navigation-bar #input input {
+        width: 300px;
+    }
+    .service-detail-right{
+        margin-top: 30px;
+    }
+    .project-detail {
+        padding-bottom: 0;
+        padding-top: 70px;
+    }
+    .blog-autoher {
+        padding: 15px;
+    }
+    .thrd-customer {
+        margin-left: 0px;
+    }
+    .contact-massege .form-group .form-control {
+        width: 100%;
+    }
+    .contact-massege .form-group {
+        display: block;
+        margin-right: 0;
+    }
+    .contact-massege textarea {
+        width: 100%;
+    }
+    .contact-massege {
+        padding-bottom: 60px;
+        padding-top: 60px;
+    }
+    .contact-form{
+        margin-bottom: 50px;
+    }
+    #navigation-bar #label {
+        top: -7px;
+    }
+}
+@media only screen and (max-width: 640px)  {
+    .project-iso .button {
+        margin-right: 30px !important;
+    }
+    .project-iso .button::before {
+        right: -15px;
+    }
+    .project-iso .button::after {
+        right: -19px;
+    }
+    .about-introduct-inner .text-box h3 {
+        padding-left: 20px;
+        padding-top: 6px;
+        font-size: 18px;
+    }
+    .about-introduct-inner .text-box h3 span::before {
+        left: -14px;
+        top: 4px;
+    }
+    .index2-servics-inner .text-box {
+        padding: 7px 10px 0;
+    }
+    .detail-download-broucher, .detail-download-summery {
+        padding: 49px 20px 46px;
+        position: relative;
+        text-align: center;
+        width: 100%;
+    }
+    .blog-quote h3 {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+@media only screen and (max-width: 600px)  {
+    #gallery-view{
+        height: 300px !important;
+        width: 100% !important;
+    }
+    #gallery-view img{
+        height: 300px !important;
+        width: 100% !important;
+    }
+}
+@media only screen and (max-width: 550px)  {
+    .grid-mesonry .element-item {
+        margin: 10px 10px 0;
+        width: 44%;
+    }
+    .home-blog-inner .image-holder {
+        display: block;
+        position: relative;
+        width: 100%;
+    }
+    .home-blog-inner .image-holder img{
+        width: 100%;
+    }
+    .home-blog-inner .text-box {
+        display: block;
+        padding: 20px 10px;
+        vertical-align: top;
+        width: 100%;
+    }
+    .innare-bainer-taxt-hedding{
+        width: 100%;
+        text-align: center;
+    }
+    .innare-bainer-taxt h1::before {
+        display: none;
+    }
+    .innare-bainer-taxt h1::after {
+        display: none;
+    }
+    .innare-bainer-taxt h1 span::before{
+        display: none;
+    }
+    .breadcrumb-main{
+        width: 100%;
+        text-align: center;
+    }
+    .breadcrumb{
+        text-align: center;
+    }
+    .about-first{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .about-intoduct-main{
+        padding-bottom: 70px;
+    }
+    .index2-servics-inner .image-holder {
+        display: block;
+        position: relative;
+        width: 100%;
+    }
+    .index2-servics-inner .image-holder img{
+        width: 100%;
+    }
+    .index2-servics-inner .text-box {
+        display: block;
+        padding: 20px;
+        vertical-align: top;
+        width: 100%;
+    }
+    .blog-slider .owl-next {
+        top: 95px;
+    }
+    .blog-slider .owl-prev {
+        top: 95px;
+    }
+    .tags-area ul li a {
+        padding: 5px 10px;
+    }
+}
+@media only screen and (max-width: 479px)  {
+    .banner-text h1 {
+        font-size: 26px;
+    }
+    .project-hedding {
+        margin-bottom: 36px;
+    }
+    .section-padding {
+        padding: 50px 0;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    h3 a, h4 a, h5 a, h6 a {
+        font-size: 18px;
+    }
+    h3, h4, h5, h6{
+        font-size: 18px;
+    }
+    .servis-hover {
+        width: 94%;
+    }
+    .our-services-inner .owl-theme .owl-controls {
+        top: -63px;
+    }
+    .our-services-inner .owl-theme .owl-controls .owl-buttons div {
+        font-size: 12px;
+        padding: 5px;
+    }
+    .grid-mesonry .element-item {
+        margin: 0 0 10px 0;
+        width: 100%;
+    }
+    .working-proses-left {
+        padding: 50px 20px;
+    }
+    .working-proses-rigth h2 {
+        font-size: 24px;
+    }
+    .working-proses-rigth {
+        padding-bottom: 50px;
+        padding-left: 0;
+        padding-top: 45px;
+    }
+    .experts-inner{
+        width: 100%;
+    }
+    .experts-main {
+        padding-bottom: 20px;
+    }
+    .home-bolg-main {
+        padding-bottom: 0;
+    }
+    #footer {
+        padding: 48px 0 15px;
+    }
+    .index2-banner .banner-text {
+        padding-top: 45%;
+        top: 0;
+    }
+    .about-intoduct-main {
+        padding-bottom: 20px;
+    }
+    .our-services-thrd-main {
+        padding-bottom: 0;
+    }
+    .detail-download-broucher, .detail-download-summery {
+        padding: 30px 20px;
+    }
+    .our-project {
+        padding-bottom: 0;
+    }
+    .project-detail {
+        padding-bottom: 0;
+        padding-top: 20px;
+    }
+    .our-bolg {
+        padding-bottom: 0;
+    }
+    .blog-slider .owl-next {
+        top: 65px;
+    }
+    .blog-slider .owl-prev {
+        top: 65px;
+    }
+    .blog-quote h3 {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .blog-autoher .image-holder{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .blog-autoher .text-box{
+        width: 100%;
+    }
+    .blog-autoher {
+        padding: 0;
+    }
+    .blog-autoher .project-hedding {
+        margin-bottom: 25px;
+    }
+    .coment-point{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .coment-point2{
+        width: 100%;
+    }
+    .custometr-coment {
+        padding: 15px;
+    }
+    .divide1 {
+        display: block;
+        width: 100%;
+    }
+    .divide2 {
+        display: block;
+        float: none;
+        width: 100%;
+    }
+    .contact-main {
+        padding-bottom: 0;
+    }
+    .contact-us {
+        margin-top: 50px;
+    }
+    .calcultion-clint .calcultion-clint-inner {
+        width: 100%;
+    }
+    .calcultion-clint .clinte-price {
+        display: block;
+        float: none;
+        margin-top: 30px;
+        width: 100%;
+    }
+    .blog-comments {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .contact-massege {
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+}
+@media only screen and (max-width: 379px)  {
+    .btn {
+        padding: 7px 15px;
+    }
+    .index2-banner .banner-text .bainer-project{
+        padding: 10px 15px 13px;
+    }
+    .banner-text .bainer-project {
+        margin-left: 10px;
+    }
+    .index2-banner .banner-text {
+        padding-top: 60%;
+        top: 0;
+    }
+    .thumbnail-image{
+        width: 47% !important;
+    }
+    .project-clint-info .nav > li > a {
+        padding: 8px 10px;
+        font-size: 14px;
+    }
+    .blog-slider .owl-next {
+        top: 50px;
+    }
+    .blog-slider .owl-prev {
+        top: 50px;
+    }
+    .tags-area ul li a {
+        padding: 5px 9px;
+        font-size: 12px;
+    }
+    .calculation .project-clint-info .nav-tabs > li {
+        width: 100%;
+    }
+    .calculation .project-clint-info .nav > li > a {
+        border-bottom: 1px solid #ffffff;
+        border-radius: 0;
+        margin-right: 0;
+        text-align: center;
+    }
+    .navigation .navbar-collapse {
+        right: -32px;
+    }
+    .detail-download-broucher i {
+        font-size: 30px;
+        vertical-align: middle;
+    }
+    .detail-download-broucher h2, .detail-download-summery h2 {
+        font-size: 16px;
+        vertical-align: middle;
+    }
+    #navigation-bar #input {
+        width: 250px;
+    }
+    #navigation-bar #input input {
+        width: 250px;
+    }
+}
+@media only screen and (max-width: 320px)  {}

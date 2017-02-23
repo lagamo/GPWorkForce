@@ -1,0 +1,91 @@
+/*=============================================
+             Theme text Color
+=============================================*/
+.top-header .top-col-detail ul li a,
+.navigation .nav > li > a:hover,
+.navigation .nav > li.active a,
+.navigation .nav > li.active a:hover,
+.sub-menu ul li a:hover,
+.navigation .nav > li.active .sub-menu li a:hover,
+.chose-text .text-work .text-box h3 a:hover,
+.working-proses-rigth h2 span,
+.experts-colum .text-box p,
+.testimonail-contant h3,
+.testimonail-contant .fa-quote-left,
+.home-blog-inner .text-box h3 a:hover,
+.footer-about ul li a i:hover,
+.footer-services ul li a:hover,
+.footer-contact ul li a:hover,
+.breadcrumb li a:hover,
+.breadcrumb li.active,
+.widget-categories ul li a:hover,
+.blog-fost,
+.quote-all,
+.blog-socail,
+.contact-info ul li a:hover,
+.project-iso .button:hover,
+.project-iso .button.is-checked,
+.project-iso-inner .text-hovwe-inner p,
+.project-cost h2{
+    color: #ffb400;
+}
+/*=============================================
+           Theme Background Color
+=============================================*/
+.top-header .top-header-socail ul li a:hover,
+.navigation .nav > li:after,
+.navigation .nav > li:before,
+.project-hedding h2:after,
+.project-hedding h2:before,
+.btn,
+.our-services-inner .owl-theme .owl-controls .owl-buttons div:hover,
+.work-plain i:after,
+.expert-hover ul li a i:hover,
+.testimonail-contant .owl-theme .owl-controls .owl-buttons div:hover,
+.home-blog-inner .blog-date,
+.copyrigth,
+.cetagories-serv,
+.innare-bainer-taxt h1::before,
+.innare-bainer-taxt h1::after,
+.about-introduct-inner .text-box h3::before,
+.about-introduct-inner .text-box h3::after,
+.widget-categories h3:before,
+.widget-categories h3:after,
+.widget-recent h3:after,
+.widget-recent h3:before,
+.about-vedio-playr,
+.widget-categories ul li:hover span,
+.owl-theme .owl-controls .owl-buttons div,
+.tags-area ul li a:hover,
+.share-area ul li a:hover,
+.custometr-coment .text-box .coment-reply a,
+td:nth-child(even):after,
+.detail-download-broucher,
+.detail-download-broucher:after,
+.project-clint-info .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus,
+.clint-info ul li:after,
+.calcultion-clint .ui-slider-range-min,
+.calcultion-clint .ui-state-default, .calcultion-clint .ui-widget-content .calcultion-clint .ui-state-default,
+.calculation .project-clint-info .nav > li > a:hover,
+.project-clint-info .nav > li > a:hover,
+.navigation .navbar-toggle{
+    background-color:  #ffb400;
+}
+/*=============================================
+            Theme border Color
+=============================================*/
+.why-chosse .image-chose:after,
+.working-process,
+.experts-colum .image-holder:after,
+.expert-hover ul li a i,
+.testimonail-clints:after,
+.home-blog-inner .blog-date:after,
+.call-to-action,
+.cetagories-serv:after,
+.about-vedio-playr::after,
+.tags-area ul li a:hover,
+.share-area ul li a,
+.share-area ul li a:hover,
+.project-iso-inner .text-hover, #preloader span{
+    border-color: #ffb400;
+}
